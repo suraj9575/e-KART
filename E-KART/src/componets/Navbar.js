@@ -44,8 +44,6 @@ class Navbar extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({
-  cartReducer: state.cartReducer,
-});
+
 
 export default connect(mapStateToProps)(Navbar);
